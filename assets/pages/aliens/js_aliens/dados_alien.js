@@ -5,7 +5,7 @@ let dados = [
   descricao: "Um Senhor do Tempo de Gallifrey que viaja pelo tempo e espaço em sua TARDIS, ajudando pessoas e defendendo o universo de ameaças.",
   link: "https://doctorwho.fandom.com/pt/wiki/O_Doutor",
   planeta: "Gallifrey",
-  tags: ["tempo", "Doutor", "companheiro", "alien", "universo", "aventura", "moral", "responsabilidade", "paradoxo", "TARDIS", "Sonicscrew", "Daleks", "Cybermen", "Master", "Weeping Angels", "Sontarans"],
+  tags: ["tempo", "Doutor", "companheiro", "alien", "universo", "aventura", "moral", "responsabilidade", "paradoxo", "Doctor", "TARDIS", "Sonicscrew", "Daleks", "Cybermen", "Master", "Weeping Angels", "Sontarans"],
   img: "galeria_aliens/Doctor10.jpg",
   audio: "../audios/Voz_do_Doutor.mp3"
 }, 

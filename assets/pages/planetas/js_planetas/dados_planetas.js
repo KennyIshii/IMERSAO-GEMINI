@@ -8,8 +8,9 @@ let dados = [
         clima: "Variado, com diferentes climas em diversas regiões, desde os polos gelados até os desertos quentes.",
         gravidade: "Similar à Terra",
         tamanho: "Similar à Terra",
+        tags: ["planeta", "terra", "azul", "verde", "vida", "humanidade", "doctor who", "time lords", "alienígenas", "climas variados"],
         link: "#",
-        img: "",
+        img: "galeria_planetas/terra.jpg",
     },
     {
         nome1: "Marte",
@@ -20,8 +21,9 @@ let dados = [
         clima: "Árido, com temperaturas extremas e atmosfera fina.",
         gravidade: "Menor que a Terra",
         tamanho: "Menor que a Terra",
+        tags: ["planeta vermelho", "exploração espacial", "marcianos", "ciência", "astronomia", "ficção científica", "radioativo", "árido", "ciência ficção", "Doctor Who"],
         link: "#",
-        img: "",
+        img: "galeria_planetas/marte.jpg",
     },
     
   {
@@ -33,8 +35,9 @@ let dados = [
         clima: "Árido, radioativo.",
         gravidade: "Similar à Terra",
         tamanho: "Similar à Terra",
-        link: "#",
-        img: "skaro.jpg"
+        tags: ["Daleks", "Kaleds", "guerra nuclear", "radioativo", "árido", "ciência ficção", "Doctor Who"],
+        link: "https://doctorwho.fandom.com/pt/wiki/Skaro",
+        img: "galeria_planetas/skaro.jpg"
     },
     {
         nome1: "Anéis de Akhaten",
@@ -45,8 +48,9 @@ let dados = [
         clima: "Ambiente sereno e luminoso, com temperaturas amenas.",
         gravidade: "Similar à Terra",
         tamanho: "Sistema planetário com múltiplos planetas e anéis",
-        link: "#",
-        img: "aneis_akhaten.jpg"
+        tags: ["ciência ficção", "espaço", "alienígenas", "misticismo", "música", "espiritualidade"],
+        link: "https://doctorwho.fandom.com/de/wiki/Akhaten#google_vignette",
+        img: "galeria_planetas/akhaten.jpg"
     },
     {
         nome1: "Gallifrey",
@@ -57,8 +61,9 @@ let dados = [
         clima: "Variado, com paisagens exuberantes e cidades futuristas.",
         gravidade: "Similar à Terra",
         tamanho: "Similar à Terra",
-        link: "#",
-        img: "gallifrey.jpg"
+        tags: ["Time Lords", "viagem no tempo", "Guerra do Tempo", "ciência ficção", "Doutor", "aventuras", "Mestre", "Doctor", "criança"],
+        link: "https://whoclubpenguin.fandom.com/wiki/Gallifrey",
+        img: "galeria_planetas/gallifrey.jpg"
     },
     {
         nome1: "Ood Esfera",
@@ -69,8 +74,9 @@ let dados = [
         clima: "Ambiente controlado artificialmente dentro da estação.",
         gravidade: "Artificial, ajustada para a fisiologia dos Ood.",
         tamanho: "Enorme, com diversas seções e níveis",
-        link: "#",
-        img: "ood_esfera.jpg"
+        tags: ["estação espacial", "Ood", "pacífico", "servil", "comércio", "alienígenas", "estação espacial", "Ood", "Doutor", "aventuras"],
+        link: "https://doctorwho.fandom.com/es/wiki/Ood_Esfera",
+        img: "galeria_planetas/oodesfera.jpg"
     },
     {
         nome1: "A Biblioteca",
@@ -81,7 +87,8 @@ let dados = [
         clima: "Ambiente controlado artificialmente, com corredores infinitos de livros.",
         gravidade: "Similar à Terra",
         tamanho: "Infinito",
-        link: "#",
-        img: "biblioteca.jpg"
+       tags: ["biblioteca", "interdimensional", "livros", "universos paralelos", "mistério", "ficção científica"], 
+        link: "https://doctorwho.fandom.com/pt/wiki/Silence_in_the_Library",
+        img: "galeria_planetas/biblioteca.jpg",
     }
-];  
+]  

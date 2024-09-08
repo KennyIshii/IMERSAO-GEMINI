@@ -3,7 +3,7 @@
 
 @font-face{
   font-family: 'Morpheus';
-  src: url('assets/morpheus/MORPHEUS.TTF'),
+  src: url('../../../assets/morpheus/MORPHEUS.TTF'),
   format('truetype');
   font-weight: normal;
   font-style: bold;
@@ -12,7 +12,7 @@
 @font-face{
   
   font-family: 'Gallifreyan';
-  src: url('assets/simple_gallifreyan/simple_gallifreyan.ttf'), 
+  src: url('../../../assets/simple_gallifreyan/simple_gallifreyan.ttf'), 
   format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -209,14 +209,13 @@ section button:hover {
 }
 
 
-/*.item-resultado h3 {
+.item-resultado h3 {
   font-family: 'Morpheus';
     font-size: 1rem; 
     margin-top: -16px;
     color: #f0f0f0;
     text-align: center;
-
-}*/ 
+}
 
 .item-resultado img{
   
