@@ -3,7 +3,7 @@
 
 @font-face{
   font-family: 'Morpheus';
-  src: url('assets/morpheus/MORPHEUS.TTF'),
+  src: url('../../../assets/morpheus/MORPHEUS.TTF'),
   format('truetype');
   font-weight: normal;
   font-style: bold;
@@ -12,7 +12,7 @@
 @font-face{
   
   font-family: 'Gallifreyan';
-  src: url('assets/simple_gallifreyan/simple_gallifreyan.ttf'), 
+  src: url('../../../assets/simple_gallifreyan/simple_gallifreyan.ttf'), 
   format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -175,7 +175,7 @@ section button:hover {
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 55vh; /* Altura máxima da caixa de resultados */
+    height: 100vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
@@ -209,21 +209,21 @@ section button:hover {
 }
 
 
-/*.item-resultado h3 {
+.item-resultado h3 {
   font-family: 'Morpheus';
     font-size: 1rem; 
     margin-top: -16px;
     color: #f0f0f0;
     text-align: center;
 
-}*/ 
+}
 
 .item-resultado img{
   
-  max-width: 50%;
+  max-width: 80%;
   height: 50%;
   margin-top: -11px;
-  border-radius: 100%;
+  border-radius: 5%;
   overflow: hidden;
   object-fit: cover;
 
@@ -232,7 +232,7 @@ section button:hover {
 audio {
     width: 100%; /* Ocupa toda a largura do container */
     border-radius: 10px; /* Borda arredondada */
-    color: #fff; /* Cor das informações do player */
+    color: #fff; /* Cor das informações do player */ 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra azul */
     padding: 10px;
     margin-top: 10px;
